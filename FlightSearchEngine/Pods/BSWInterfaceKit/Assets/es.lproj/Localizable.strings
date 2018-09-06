@@ -1,0 +1,28 @@
+/* 
+  Created by Pierluigi Cifani on 08/08/16.
+  Copyright © 2018 TheLeftBit SL. All rights reserved.
+*/
+
+/**
+ *  Generic
+ */
+"dismiss" = "Cancelar";
+"yes" = "Si";
+"no" = "No";
+
+/**
+ *  ProfilePhotoCollectionView
+ */
+"confirm-delete-title" = "¿Quieres eliminar esta foto?";
+"add-photo-title" = "¿De donde quieres subir la foto?";
+"photo-album" = "Carrete de Fotos";
+"camera" = "Camera";
+
+/**
+ *  FormTextField
+ */
+"name-placeholder" = "Nombre";
+"lastname-placeholder" = "Apellido";
+"email-placeholder" = "Email";
+"password-placeholder" = "Contraseña";
+"telephone" = "Número de teléfono";

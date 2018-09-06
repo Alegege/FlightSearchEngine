@@ -1,0 +1,6 @@
+framework module BSWFoundation {
+  umbrella header "BSWFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

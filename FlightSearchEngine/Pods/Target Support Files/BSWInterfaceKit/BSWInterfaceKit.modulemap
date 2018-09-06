@@ -1,0 +1,6 @@
+framework module BSWInterfaceKit {
+  umbrella header "BSWInterfaceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

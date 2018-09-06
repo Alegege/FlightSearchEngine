@@ -1,0 +1,48 @@
+PODS:
+  - BNRDeferred (3.3.1)
+  - BSWFoundation (2.0.2):
+    - BNRDeferred (= 3.3.1)
+    - KeychainAccess (~> 3.1.0)
+  - BSWInterfaceKit (1.0.0):
+    - BSWFoundation (~> 2.0.2)
+    - SDWebImage (~> 4.4.1)
+  - IQKeyboardManagerSwift (6.1.1)
+  - KeychainAccess (3.1.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - BSWFoundation
+  - BSWInterfaceKit (from `https://github.com/theleftbit/BSWInterfaceKit.git`, branch `dada`)
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BNRDeferred
+    - BSWFoundation
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  BSWInterfaceKit:
+    :branch: dada
+    :git: https://github.com/theleftbit/BSWInterfaceKit.git
+
+CHECKOUT OPTIONS:
+  BSWInterfaceKit:
+    :commit: 11d01fef3bcef2ec29b32f6924a0e4984527a173
+    :git: https://github.com/theleftbit/BSWInterfaceKit.git
+
+SPEC CHECKSUMS:
+  BNRDeferred: 3936d5a6c2181731eb6528662881312f9aaed08e
+  BSWFoundation: a1418b45004569004fe2e6cc1a332b1b4a91a24e
+  BSWInterfaceKit: 8a3186765f059862c4d31d0509340ec546b265f6
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: d39ec6c3f1bcfd0f6672fca1f401b1c8996d549c
+
+COCOAPODS: 1.5.3

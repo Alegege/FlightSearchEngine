@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FlightSearchEngine' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FlightSearchEngine
+  pod 'BSWInterfaceKit', :git => 'https://github.com/theleftbit/BSWInterfaceKit.git', :branch => 'dada'
+  pod 'BSWFoundation'
+  pod 'IQKeyboardManagerSwift'
+
+  target 'FlightSearchEngineTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FlightSearchEngineUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
