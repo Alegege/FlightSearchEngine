@@ -13,7 +13,6 @@ PODS:
   - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
-  - BSWFoundation
   - BSWInterfaceKit (from `https://github.com/theleftbit/BSWInterfaceKit.git`, branch `dada`)
   - IQKeyboardManagerSwift
 
@@ -43,6 +42,6 @@ SPEC CHECKSUMS:
   KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: d39ec6c3f1bcfd0f6672fca1f401b1c8996d549c
+PODFILE CHECKSUM: bbb3965e4991234b7ed428d052d59f0cf966ce25
 
 COCOAPODS: 1.5.3
